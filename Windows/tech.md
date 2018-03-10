@@ -10,3 +10,6 @@ set imcmdline
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 ```
+
+# 2.Scrapy以utf-8编码输出csv时中文乱码
+将文件用notepad++打开，将编码*utf-8无BOM*改为 *utf-8*
