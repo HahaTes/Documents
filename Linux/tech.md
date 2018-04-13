@@ -24,10 +24,33 @@ virtualenv -p /usr/bin/python3.6 p3scrapy
 c.激活虚拟环境并安装相应的库
 ```linux
 source ./p3scrapy/bin/activate
+pip install setuptools
 apt-get install python3-lxml
 apt-get install build-essential libssl-dev libffi-dev python-dev
 pip install scrapy
 ```
 >  取消激活使用`deactivate`,删除环境直接删除对应文件夹
 
+# 3.Debian 安装 Scrapy 框架
+步骤`a&b`同上
+
+c.激活虚拟环境并安装相应的库
+```linux
+source ./p3scrapy/bin/activate
+pip install setuptools
+apt-get install python3-lxml
+apt-get install build-essential libssl-dev libffi-dev python-dev
+```
+>下载cffi资源包，https://pypi.python.org/pypi/cffi/1.11.5，不是预编译的二进制文件
+```linux
+wget https://pypi.python.org/packages/e7/a7/4cd50e57cc6f436f1cc3a7e8fa700ff9b8b4d471620629074913e3735fb2/cffi-1.11.5.tar.gz#md5=ac8492f4ad952360737413e82d661908
+```
+>解压进入解压后文件夹，重新编译并安装scrapy
+```linux
+tar -vxf cffi-1.11.5.tar.gz
+cd cffi-1.11.5
+python setup.py build --force
+python setup.py install
+pip install scrapy
+```
 
