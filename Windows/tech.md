@@ -56,3 +56,16 @@ Windows Registry Editor Version 5.00
 
 
 ```
+
+# 5. Excel里面快速提取所需信息
+  对于从一系列信息中提取某部分，只需在右边一列第一个单元格输入 提取后的信息，例如从`1234856465ghux456`提取英文，只需在右侧一列输入`ghux`，然后按`Ctrl + E` 即可。
+# 6.Win10 设置背景护眼色
+  新建bat文件，输入
+  ```bat
+reg add "HKCU\Control Panel\Colors" /v Window /t REG_SZ /d "202 234 206" /f
+  ```
+  运行即可。恢复时只需将颜色数字改为 `255 255 255` 。
+
+# 7.Chrome使用IDM捕获视频同时不影响下载工具的选择
+
+  在IDM设置勾选Chrome高级浏览器集成，在浏览器安装IDM扩展后，之后在IDM取消勾选即可。
