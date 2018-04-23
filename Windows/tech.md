@@ -1,8 +1,10 @@
+****
+
 ## 目录
 
-* [Windows下gvim显示中文乱码](#1.Windows下gvim显示中文乱码)
-* [Scrapy以utf-8编码输出csv时中文乱码](#Scrapy以utf-8编码输出csv时中文乱码)
-* [找回隐藏的Chrome扩展](#找回隐藏的Chrome扩展)
+* [Windows下gvim显示中文乱码](#windows下gvim显示中文乱码)
+* [Scrapy以utf-8编码输出csv时中文乱码](#scrapy以utf-8编码输出csv时中文乱码)
+* [找回隐藏的Chrome扩展](#找回隐藏的chrome扩展)
 * [桌面右键加入切换电源计划](#4.桌面右键加入切换电源计划)
 * [Excel里面快速提取所需信息](#5.Excel里面快速提取所需信息)
 * [Win10 设置背景护眼色](#6.Win10设置背景护眼色)
@@ -12,8 +14,8 @@
 
 
 
-# 1.Windows下gvim显示中文乱码
----
+### Windows下gvim显示中文乱码
+------
 编辑安装目录下的_vimrc，添加以下代码：
 ```
 set encoding=utf-8
@@ -27,12 +29,12 @@ source $VIMRUNTIME/mswin.vim
 ```
 
 Scrapy以utf-8编码输出csv时中文乱码
------
+------
 
 将文件用notepad++打开，将编码 *utf-8无BOM* 改为 *utf-8*, 同时可以将 \n 与 \r 替换，去除多余的空行
 
 找回隐藏的Chrome扩展
----
+------
 a. 在浏览器地址栏最右边，待鼠标变成左右双向箭头图标的时候向右拖动，隐藏的扩展图标就会出现。 
 
 b. 重新启用该扩展
