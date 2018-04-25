@@ -1,18 +1,20 @@
-README
+Windows
 =====
 ****
 
 ## 目录
 
-* [Windows下gvim显示中文乱码](#windows下gvim显示中文乱码)
-* [Scrapy以utf-8编码输出csv时中文乱码](#scrapy以utf-8编码输出csv时中文乱码)
-* [找回隐藏的Chrome扩展](#找回隐藏的chrome扩展)
-* [桌面右键加入切换电源计划](#桌面右键加入切换电源计划)
-* [Excel里面快速提取所需信息](#excel里面快速提取所需信息)
-* [Win10 设置背景护眼色](#win10设置背景护眼色)
-* [tensorflow GPU安装](#tensorflow-gpu安装)
-* [jupyter配置](#jupyter配置)
-* [scrapy安装](#scrapy安装)
+
+  - [Windows下gvim显示中文乱码](#windowsgvim)
+  - [Scrapy以utf-8编码输出csv时中文乱码](#scrapyutf-8csv)
+  - [找回隐藏的Chrome扩展](#chrome)
+  - [桌面右键加入切换电源计划](#)
+  - [Excel里面快速提取所需信息](#excel)
+  - [Win10设置背景护眼色](#win10)
+  - [tensorflow-GPU安装](#tensorflow-gpu)
+  - [jupyter配置](#jupyter)
+  - [scrapy安装](#scrapy)
+  - [scrapy_access_denied](#scrapy-access-denied)
 
 
 
@@ -121,4 +123,9 @@ To install this package with conda run:
 conda install -c conda-forge scrapy
 
 
-[返回顶部](#readme)
+scrapy_access_denied
+-----
+在anaconda prompt里面输入`anaconda-navigator --reset`，问题解决
+
+
+[返回顶部](#windows)
